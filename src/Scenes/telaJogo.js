@@ -11,11 +11,11 @@ export default class SceneJogo extends Phaser.Scene {
 
     preload() {
         // Carregar imagens
-        this.load.image('fundoJogo', 'src/Assets/fundo.png'); // Fundo 
-        this.load.image('naveEspacial', 'src/Assets/nave.png'); // Nave do jogador
-        this.load.image('obstaculo1', 'src/Assets/meteorito.png'); // Imagem do primeiro obstáculo
-        this.load.image('obstaculo2', 'src/Assets/fogo.png'); // Imagem do segundo obstáculo
-        this.load.spritesheet('explosao', 'src/Assets/explosao.png', { frameWidth: 64, frameHeight: 64 });
+        this.load.image('fundoJogo', 'src/assets/fundo.png'); // Fundo 
+        this.load.image('naveEspacial', 'src/assets/nave.png'); // Nave do jogador
+        this.load.image('obstaculo1', 'src/assets/meteorito.png'); // Imagem do primeiro obstáculo
+        this.load.image('obstaculo2', 'src/assets/fogo.png'); // Imagem do segundo obstáculo
+        this.load.spritesheet('explosao', 'src/assets/explosao.png', { frameWidth: 64, frameHeight: 64 });
     }
 
     create() {

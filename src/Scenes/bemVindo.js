@@ -6,10 +6,10 @@ export default class SceneInicial extends Phaser.Scene {
 
     preload() {
         // Carrega a imagem de fundo do jogo
-        this.load.image('fundo', 'src/Assets/espace.png');
+        this.load.image('fundo', 'src/assets/espace.png');
 
         // Carrega a imagem do botão de início
-        this.load.image('startButton', 'src/Assets/start.png');
+        this.load.image('startButton', 'src/assets/start.png');
     }
 
     create() {

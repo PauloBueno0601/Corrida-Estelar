@@ -13,6 +13,10 @@ const config = {
             debug: false,
         },
     },
+     scale: {
+        mode: Phaser.Scale.FILL,
+        autoCenter: Phaser.Scale.CENTER_BOTH
+     },
     scene: [SceneInicial, SceneJogo], // Registrando as cenas
 };
 
